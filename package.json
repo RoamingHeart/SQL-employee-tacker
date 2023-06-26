@@ -1,0 +1,25 @@
+{
+  "name": "sql-employee-tacker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoamingHeart/SQL-employee-tacker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RoamingHeart/SQL-employee-tacker/issues"
+  },
+  "homepage": "https://github.com/RoamingHeart/SQL-employee-tacker#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "mysql2": "^3.4.1"
+  }
+}
