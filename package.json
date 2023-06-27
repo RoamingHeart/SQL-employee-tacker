@@ -2,10 +2,10 @@
   "name": "sql-employee-tacker",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node main.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/RoamingHeart/SQL-employee-tacker#readme",
   "dependencies": {
     "inquirer": "^8.2.4",
-    "mysql2": "^3.4.1"
+    "mysql2": "^3.4.1",
+    "cfonts": "3.2.0"
   }
 }

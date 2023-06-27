@@ -5,9 +5,9 @@ const cfonts = require('cfonts');
 //connecting mysql
 const connecting =  mySQL.createConnection({
     host: "localhost",
-    port: 4200,
+    // port: 3001,
     user: "root",
-    password: "",
+    password: "nilknarf",
     database: "employeeTracker_db",
 });
 
@@ -17,7 +17,7 @@ connecting.connect((err) => {
     begin();
 })
 
-cfonts.say('Employee Manager', {
+cfonts.say('Employee|Manager', {
 	font: 'block',              // define the font face
 	align: 'left',              // define text alignment
 	colors: ['gray'],         // define all colors
@@ -92,7 +92,7 @@ function begin() {
                     viewTotalUtilizedBudgetOfDepartment();
                     break;
                 case "Exit":
-                    connection.end();
+                    connecting.end();
                     console.log("Goodbye!");
                     break;
             }

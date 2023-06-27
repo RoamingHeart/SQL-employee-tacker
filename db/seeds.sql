@@ -1,4 +1,6 @@
-INSERT INTO depaartments (department_name)
+USE employeeTracker_db;
+
+INSERT INTO departments (department_name)
 VALUES
 ('Executive Board'),
 ('Marketing'),
