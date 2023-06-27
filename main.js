@@ -347,7 +347,7 @@ function addManager() {
 }
 
 function updateEmployeeRole() {
-    const queryEmpl = `SELECT employee.id, employess.first_name, employee.last_name, roles.title
+    const queryEmpl = `SELECT employee.id, employee.first_name, employee.last_name, roles.title
     FROM employee
     LEFT JOIN roles On employess.role_id = roles.id`;
 
